@@ -18,7 +18,7 @@ class Solution:
     		while mid>=0 and arr[mid]==x:
     		    cnt+=1
     		    mid-=1
-        if idx<n-1:
+        	if idx<n-1:
 		    mid= idx+1
     		while mid<n and arr[mid]==x:
     		    cnt+=1
